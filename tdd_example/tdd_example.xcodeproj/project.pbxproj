@@ -26,8 +26,9 @@
 		E9BD2C2028468179009AEB27 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = E9BD2C1F28468179009AEB27 /* Then */; };
 		E9BD2C22284681FB009AEB27 /* quick+nimble_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2C21284681FB009AEB27 /* quick+nimble_test.swift */; };
 		E9BD2C2428468403009AEB27 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2C2328468403009AEB27 /* Cell.swift */; };
-		E9BD2C27284685D2009AEB27 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2C26284685D2009AEB27 /* API.swift */; };
+		E9BD2C27284685D2009AEB27 /* PostsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2C26284685D2009AEB27 /* PostsApi.swift */; };
 		E9C895472846880200848ADA /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C895462846880200848ADA /* PostModel.swift */; };
+		E9C8954928468A4B00848ADA /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8954828468A4B00848ADA /* APIProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +54,9 @@
 		E9BD2BEE284680E6009AEB27 /* tdd_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tdd_exampleTests.swift; sourceTree = "<group>"; };
 		E9BD2C21284681FB009AEB27 /* quick+nimble_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "quick+nimble_test.swift"; sourceTree = "<group>"; };
 		E9BD2C2328468403009AEB27 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		E9BD2C26284685D2009AEB27 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		E9BD2C26284685D2009AEB27 /* PostsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsApi.swift; sourceTree = "<group>"; };
 		E9C895462846880200848ADA /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		E9C8954828468A4B00848ADA /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +113,10 @@
 				E9BD2C2528468565009AEB27 /* essential */,
 				E9BD2BDB284680E5009AEB27 /* ViewController.swift */,
 				E9BD2C2328468403009AEB27 /* Cell.swift */,
-				E9BD2C26284685D2009AEB27 /* API.swift */,
+				E9BD2C26284685D2009AEB27 /* PostsApi.swift */,
 				E9BD2BE5284680E6009AEB27 /* Info.plist */,
 				E9C895462846880200848ADA /* PostModel.swift */,
+				E9C8954828468A4B00848ADA /* APIProvider.swift */,
 			);
 			path = tdd_example;
 			sourceTree = "<group>";
@@ -264,10 +267,11 @@
 			files = (
 				E9BD2BDC284680E5009AEB27 /* ViewController.swift in Sources */,
 				E9BD2C2428468403009AEB27 /* Cell.swift in Sources */,
+				E9C8954928468A4B00848ADA /* APIProvider.swift in Sources */,
 				E9BD2BD8284680E5009AEB27 /* AppDelegate.swift in Sources */,
 				E9C895472846880200848ADA /* PostModel.swift in Sources */,
 				E9BD2BDA284680E5009AEB27 /* SceneDelegate.swift in Sources */,
-				E9BD2C27284685D2009AEB27 /* API.swift in Sources */,
+				E9BD2C27284685D2009AEB27 /* PostsApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
