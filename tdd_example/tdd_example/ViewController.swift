@@ -6,14 +6,30 @@
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    
+    let collectionView = UICollectionView(frame: .zero, collectionViewLayout: .init())
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        setupLayout()
+        view.backgroundColor = .black
     }
+    
+    
 
 
+}
+
+// MARK: Layout
+
+extension ViewController {
+    private func setupLayout() {
+        
+    }
 }
 
