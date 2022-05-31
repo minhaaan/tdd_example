@@ -29,6 +29,8 @@
 		E9BD2C27284685D2009AEB27 /* PostsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2C26284685D2009AEB27 /* PostsApi.swift */; };
 		E9C895472846880200848ADA /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C895462846880200848ADA /* PostModel.swift */; };
 		E9C8954928468A4B00848ADA /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8954828468A4B00848ADA /* APIProvider.swift */; };
+		E9C8954B28468B3700848ADA /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8954A28468B3700848ADA /* ProviderProtocol.swift */; };
+		E9C8954D28468D6800848ADA /* PostApiProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C8954C28468D6800848ADA /* PostApiProviderTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		E9BD2C26284685D2009AEB27 /* PostsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsApi.swift; sourceTree = "<group>"; };
 		E9C895462846880200848ADA /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		E9C8954828468A4B00848ADA /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		E9C8954A28468B3700848ADA /* ProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderProtocol.swift; sourceTree = "<group>"; };
+		E9C8954C28468D6800848ADA /* PostApiProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostApiProviderTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				E9BD2BE5284680E6009AEB27 /* Info.plist */,
 				E9C895462846880200848ADA /* PostModel.swift */,
 				E9C8954828468A4B00848ADA /* APIProvider.swift */,
+				E9C8954A28468B3700848ADA /* ProviderProtocol.swift */,
 			);
 			path = tdd_example;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				E9BD2BEE284680E6009AEB27 /* tdd_exampleTests.swift */,
 				E9BD2C21284681FB009AEB27 /* quick+nimble_test.swift */,
+				E9C8954C28468D6800848ADA /* PostApiProviderTests.swift */,
 			);
 			path = tdd_exampleTests;
 			sourceTree = "<group>";
@@ -271,6 +277,7 @@
 				E9BD2BD8284680E5009AEB27 /* AppDelegate.swift in Sources */,
 				E9C895472846880200848ADA /* PostModel.swift in Sources */,
 				E9BD2BDA284680E5009AEB27 /* SceneDelegate.swift in Sources */,
+				E9C8954B28468B3700848ADA /* ProviderProtocol.swift in Sources */,
 				E9BD2C27284685D2009AEB27 /* PostsApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +288,7 @@
 			files = (
 				E9BD2C22284681FB009AEB27 /* quick+nimble_test.swift in Sources */,
 				E9BD2BEF284680E6009AEB27 /* tdd_exampleTests.swift in Sources */,
+				E9C8954D28468D6800848ADA /* PostApiProviderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
