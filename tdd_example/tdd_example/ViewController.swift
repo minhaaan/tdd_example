@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import SnapKit
+
 
 final class ViewController: UIViewController {
     
@@ -20,9 +20,6 @@ final class ViewController: UIViewController {
         view.backgroundColor = .black
     }
     
-    
-
-
 }
 
 // MARK: Layout
