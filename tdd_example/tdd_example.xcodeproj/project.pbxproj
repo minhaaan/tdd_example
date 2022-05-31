@@ -80,7 +80,10 @@
 				E99C0AB32846775300DBEF6B /* tdd_exampleTests */,
 				E99C0A9B2846775300DBEF6B /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 1;
 		};
 		E99C0A9B2846775300DBEF6B /* Products */ = {
 			isa = PBXGroup;
