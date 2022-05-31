@@ -24,6 +24,7 @@
 		E9BD2C1B2846816B009AEB27 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = E9BD2C1A2846816B009AEB27 /* Moya */; };
 		E9BD2C1D2846816B009AEB27 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = E9BD2C1C2846816B009AEB27 /* RxMoya */; };
 		E9BD2C2028468179009AEB27 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = E9BD2C1F28468179009AEB27 /* Then */; };
+		E9BD2C22284681FB009AEB27 /* quick+nimble_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD2C21284681FB009AEB27 /* quick+nimble_test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E9BD2BE5284680E6009AEB27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9BD2BEA284680E6009AEB27 /* tdd_exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tdd_exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BD2BEE284680E6009AEB27 /* tdd_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tdd_exampleTests.swift; sourceTree = "<group>"; };
+		E9BD2C21284681FB009AEB27 /* quick+nimble_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "quick+nimble_test.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,9 @@
 				E9BD2BED284680E6009AEB27 /* tdd_exampleTests */,
 				E9BD2BD5284680E5009AEB27 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		E9BD2BD5284680E5009AEB27 /* Products */ = {
 			isa = PBXGroup;
@@ -113,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				E9BD2BEE284680E6009AEB27 /* tdd_exampleTests.swift */,
+				E9BD2C21284681FB009AEB27 /* quick+nimble_test.swift */,
 			);
 			path = tdd_exampleTests;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BD2C22284681FB009AEB27 /* quick+nimble_test.swift in Sources */,
 				E9BD2BEF284680E6009AEB27 /* tdd_exampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
